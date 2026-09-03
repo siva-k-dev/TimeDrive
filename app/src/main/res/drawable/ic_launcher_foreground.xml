@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- TimeDrive Branded Launcher Icon - Precision Implementation -->
+
+    <!-- 1. Gold Location Pin at Top Center -->
+    <!-- Centered at x=48, top at y=28 (Distance from center 48,48 is 20, well within R=28) -->
+    <path
+        android:fillColor="#FAC775"
+        android:pathData="M48,28c-6,0 -11,5 -11,11c0,6 11,11 11,11s11,-5 11,-11c0,-6 -5,-11 -11,-11z" />
+    <!-- Pin Hole (Teal) -->
+    <path
+        android:fillColor="#0F6E56"
+        android:pathData="M48,39m-4,0a4,4 0 1,1 8,0a4,4 0 1,1 -8,0" />
+
+    <!-- 2. Bold White TD Monogram -->
+    <!-- 'T' - Very Bold Geometric Shape -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M31,50h16v5h-6v13h-4v-13h-6z" />
+
+    <!-- 'D' - Bold Geometric Shape with Timer -->
+    <!-- Outer 'D' as a compound path with even-odd fill to match image perfectly -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M49,50h8c5.5,0 10,4 10,9s-4.5,9 -10,9h-8z M53,53.5h4c3.5,0 6,2.5 6,5.5s-2.5,5.5 -6,5.5h-4z" />
+
+    <!-- Timer Details inside D (Teal counter is inherent due to background/cutout) -->
+    <!-- 4 White Tick Marks -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.2"
+        android:strokeLineCap="round"
+        android:pathData="M57,54.5l0,1.5 M60.5,59l-1.5,0 M57,63.5l0,-1.5 M53.5,59l1.5,0" />
+
+    <!-- Gold Timer Hand & Hub -->
+    <path
+        android:strokeColor="#FAC775"
+        android:strokeWidth="1.8"
+        android:strokeLineCap="round"
+        android:pathData="M57,59l3,-3" />
+    <path
+        android:fillColor="#FAC775"
+        android:pathData="M57,59m-1.4,0a1.4,1.4 0 1,1 2.8,0a1.4,1.4 0 1,1 -2.8,0" />
+
+</vector>

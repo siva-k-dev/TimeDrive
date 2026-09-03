@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Time Drive</string>
+    <string name="rive">rive</string>
+
+    <!-- Navigation & Titles -->
+    <string name="job_history">ജോലി ചരിത്രം</string>
+    <string name="earning_totals">ആകെ വരുമാനം</string>
+    <string name="company_settings">കമ്പനി സെറ്റിംഗ്സ്</string>
+    <string name="start_job">ജോലി തുടങ്ങുക</string>
+    <string name="timer">ടൈമർ</string>
+    <string name="job_finished">ജോലി പൂർത്തിയായി</string>
+    <string name="edit_vehicle">വാഹനം മാറ്റുക</string>
+    <string name="add_vehicle">വാഹനം ചേർക്കുക</string>
+
+    <!-- Vehicle List -->
+    <string name="no_vehicles_yet">വാഹനങ്ങളൊന്നും ചേർത്തിട്ടില്ല. താഴെ ചേർക്കുക.</string>
+    <string name="per_hour">മണിക്കൂറിന് %1$s</string>
+    <string name="btn_add_vehicle">വാഹനം ചേർക്കുക</string>
+    <string name="menu_history">ചരിത്രം</string>
+    <string name="menu_totals">വരുമാനം</string>
+    <string name="menu_export">ഡാറ്റ എക്സ്പോർട്ട് ചെയ്യുക</string>
+    <string name="menu_settings">സെറ്റിംഗ്സ്</string>
+
+    <!-- Vehicle Card -->
+    <string name="status_start">തുടങ്ങുക</string>
+    <string name="status_paused">നിർത്തിയിരിക്കുന്നു</string>
+    <string name="status_running">നടക്കുന്നു</string>
+    <string name="menu_edit">തിരുത്തുക</string>
+    <string name="menu_delete">ഒഴിവാക്കുക</string>
+
+    <!-- Dialogs -->
+    <string name="delete_confirm_title">%1$s ഒഴിവാക്കണോ?</string>
+    <string name="delete_confirm_msg">ഇത് മാറ്റാൻ കഴിയില്ല.</string>
+    <string name="btn_delete">ഒഴിവാക്കുക</string>
+    <string name="btn_cancel">റദ്ദാക്കുക</string>
+    <string name="btn_ok">ശരി</string>
+    <string name="error_cannot_delete">ഒഴിവാക്കാൻ കഴിയില്ല</string>
+    <string name="error_stop_job_first">വാഹനം ഒഴിവാക്കുന്നതിന് മുമ്പ് നടന്നുകൊണ്ടിരിക്കുന്ന ജോലി നിർത്തുക.</string>
+
+    <!-- Add/Edit Vehicle -->
+    <string name="label_vehicle_name">വാഹനത്തിന്റെ പേര്</string>
+    <string name="label_rate_per_hour">മണിക്കൂർ വാടക (₹)</string>
+    <string name="rounding_rule">സമയം കണക്കാക്കുന്ന രീതി</string>
+    <string name="rule_per_minute">ഓരോ മിനിറ്റും (കൃത്യമായി)</string>
+    <string name="rule_half_hour">അടുത്ത അര മണിക്കൂർ വരെ</string>
+    <string name="rule_full_hour">അടുത്ത ഒരു മണിക്കൂർ വരെ</string>
+    <string name="btn_update_vehicle">വാഹനം അപ്ഡേറ്റ് ചെയ്യുക</string>
+    <string name="btn_save_vehicle">വാഹനം സേവ് ചെയ്യുക</string>
+
+    <!-- Timer Screen -->
+    <string name="label_customer_name">കസ്റ്റമറുടെ പേര്</string>
+    <string name="label_customer_address">കസ്റ്റമറുടെ അഡ്രസ്സ് / സ്ഥലം</string>
+    <string name="btn_start_job">ജോലി തുടങ്ങുക</string>
+    <string name="btn_pause">നിർത്തുക</string>
+    <string name="btn_resume">വീണ്ടും തുടങ്ങുക</string>
+    <string name="btn_stop_job">ജോലി അവസാനിപ്പിക്കുക</string>
+    <string name="amount_so_far">ഇതുവരെയുള്ള വാടക</string>
+    <string name="customer_label">കസ്റ്റമർ: %1$s</string>
+
+    <!-- Summary Screen -->
+    <string name="time_used">ഉപയോഗിച്ച സമയം: %1$s</string>
+    <string name="rate_label">വാടക: %1$s/മണിക്കൂർ</string>
+    <string name="total_label">ആകെ: %1$s</string>
+    <string name="payment_status">പേമെന്റ് നില</string>
+    <string name="status_paid">ലഭിച്ചു (Paid)</string>
+    <string name="status_pending">ലഭിക്കാനുണ്ട് (Pending)</string>
+    <string name="btn_share_bill">ബില്ല് അയക്കുക</string>
+    <string name="btn_done">കഴിഞ്ഞു</string>
+
+    <!-- History & Search -->
+    <string name="search_customer">കസ്റ്റമറുടെ പേര് വെച്ച് തിരയുക</string>
+    <string name="all_vehicles">എല്ലാ വാഹനങ്ങളും</string>
+    <string name="today">ഇന്ന്</string>
+    <string name="this_week">ഈ ആഴ്ച</string>
+    <string name="this_month">ഈ മാസം</string>
+    <string name="this_year">ഈ വർഷം</string>
+    <string name="no_jobs_found">വിവരങ്ങളൊന്നും ലഭ്യമല്ല.</string>
+    <string name="show_pending_only">ലഭിക്കാനുള്ളവ മാത്രം കാണിക്കുക</string>
+    <string name="receipt_title">ജോലി രസീത്</string>
+
+    <!-- Totals Screen -->
+    <string name="total_for_period">%1$s ആകെ വരുമാനം</string>
+    <string name="jobs_count">%1$d ജോലികൾ</string>
+    <string name="pending_collection">ലഭിക്കാനുള്ള തുക</string>
+    <string name="pending_jobs_count">%1$d ജോലികൾ ലഭിക്കാനുണ്ട്</string>
+
+    <!-- Settings -->
+    <string name="label_business_name">സ്ഥാപനത്തിന്റെ പേര്</string>
+    <string name="label_phone_number">ഫോൺ നമ്പർ</string>
+    <string name="label_address">അഡ്രസ്സ്</string>
+    <string name="btn_save">സേവ് ചെയ്യുക</string>
+    <string name="btn_back">പിന്നിലേക്ക്</string>
+    <string name="language">ഭാഷ (Language)</string>
+    <string name="backup_restore">ബാക്കപ്പും വീണ്ടെടുക്കലും</string>
+    <string name="last_backup">അവസാന ബാക്കപ്പ്: %1$s</string>
+    <string name="never_backed_up">ബാക്കപ്പ് എടുത്തിട്ടില്ല</string>
+
+    <!-- Backup & Restore Screen -->
+    <string name="backup_title">ബാക്കപ്പും വീണ്ടെടുക്കലും</string>
+    <string name="create_backup">ബാക്കപ്പ് ഉണ്ടാക്കുക</string>
+    <string name="create_backup_desc">നിങ്ങളുടെ എല്ലാ ഡാറ്റയും പങ്കിടാനോ സംരക്ഷിക്കാനോ ഒരു JSON ഫയൽ സൃഷ്ടിക്കുക.</string>
+    <string name="restore_backup">ബാക്കപ്പിൽ നിന്ന് വീണ്ടെടുക്കുക</string>
+    <string name="restore_backup_desc">നിങ്ങളുടെ ഡാറ്റ പുനഃസ്ഥാപിക്കാൻ മുമ്പ് സംരക്ഷിച്ച JSON ഫയൽ തിരഞ്ഞെടുക്കുക.</string>
+    <string name="restore_confirm_title">ഡാറ്റ വീണ്ടെടുക്കണോ?</string>
+    <string name="restore_confirm_msg">ഇത് ബാക്കപ്പ് ഫയലിൽ (%1$s) നിന്നുള്ള ഡാറ്റ ഉപയോഗിച്ച് നിലവിലെ എല്ലാ വാഹനങ്ങളും ജോലികളും ക്രമീകരണങ്ങളും മാറ്റും.\n\nവാഹനങ്ങൾ: %2$d\nജോലികൾ: %3$d\nബാക്കപ്പ് തീയതി: %4$s\n\nഇത് മാറ്റാൻ കഴിയില്ല.</string>
+    <string name="btn_restore">വീണ്ടെടുക്കുക</string>
+    <string name="backup_success">ബാക്കപ്പ് സൃഷ്ടിച്ചു, പങ്കിട്ടു</string>
+    <string name="restore_success">ഡാറ്റ വിജയകരമായി വീണ്ടെടുത്തു</string>
+    <string name="error_invalid_backup">അസാധുവായ ബാക്കപ്പ് ഫയൽ</string>
+    <string name="error_restore_failed">വീണ്ടെടുക്കൽ പരാജയപ്പെട്ടു: %1$s</string>
+    <string name="btn_share_backup">ബാക്കപ്പ് പങ്കിടുക</string>
+    <string name="btn_save_to_device">ഉപകരണത്തിൽ സേവ് ചെയ്യുക</string>
+
+    <!-- Onboarding -->
+    <string name="btn_skip">ഒഴിവാക്കുക</string>
+    <string name="btn_next">അടുത്തത്</string>
+    <string name="btn_get_started">തുടങ്ങുക</string>
+    <string name="onboarding_1_title">നിങ്ങളുടെ വാഹനങ്ങൾ ചേർക്കുക</string>
+    <string name="onboarding_1_sub">നിങ്ങളുടെ ട്രാക്ടർ, ജെസിബി അല്ലെങ്കിൽ വാടകയ്ക്ക് കൊടുക്കുന്ന വാഹനങ്ങളുടെ പേരും വാടകയും നൽകുക</string>
+    <string name="onboarding_2_title">സമയം കണക്കാക്കാം</string>
+    <string name="onboarding_2_sub">ജോലി തുടങ്ങുമ്പോൾ ബട്ടൺ അമർത്തുക. വാടക താനേ കണക്കാക്കപ്പെടും</string>
+    <string name="onboarding_3_title">ബില്ല് ഉടനെ അയക്കാം</string>
+    <string name="onboarding_3_sub">വാട്സ്ആപ്പിൽ ബില്ല് അയക്കാനും പഴയ ജോലികൾ എപ്പോൾ വേണമെങ്കിലും കാണാനും സാധിക്കും</string>
+
+    <!-- Initial Setup -->
+    <string name="initial_setup_title">നിങ്ങളുടെ ബിസിനസ്സ് സജ്ജമാക്കുക</string>
+    <string name="initial_setup_sub">നിങ്ങൾ ഉപഭോക്താക്കളുമായി പങ്കിടുന്ന ഓരോ ബില്ലിലും ഇത് ദൃശ്യമാകും</string>
+    <string name="btn_continue">തുടരുക</string>
+    <string name="btn_skip_for_now">ഇപ്പോൾ ഒഴിവാക്കുക</string>
+    <string name="initial_setup_reassurance">നിങ്ങൾക്ക് ഇത് പിന്നീട് എപ്പോൾ വേണമെങ്കിലും സെറ്റിംഗ്‌സിൽ മാറ്റാവുന്നതാണ്</string>
+
+    <!-- Receipt Specific -->
+    <string name="receipt_vehicle">വാഹനം:</string>
+    <string name="receipt_customer">കസ്റ്റമർ:</string>
+    <string name="receipt_date">തിയതി:</string>
+    <string name="receipt_duration">സമയം:</string>
+    <string name="receipt_rate">വാടക:</string>
+    <string name="receipt_total">ആകെ വാടക</string>
+
+    <string name="btn_download">ഡൗൺലോഡ് ചെയ്യുക</string>
+    <string name="download_success">പിക്ചേഴ്സ്/Time Drive-ൽ സേവ് ചെയ്തു</string>
+    <string name="status_available">Available</string>
+    <string name="label_vehicle_icon">Vehicle icon</string>
+    <string name="choose_an_icon">Choose an icon</string>
+    <string name="selected_icon_label">selected</string>
+</resources>

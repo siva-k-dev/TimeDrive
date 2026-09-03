@@ -1,0 +1,145 @@
+<resources>
+    <string name="app_name">Time Drive</string>
+    <string name="rive">rive</string>
+
+    <!-- Navigation & Titles -->
+    <string name="job_history">Job History</string>
+    <string name="earning_totals">Earning Totals</string>
+    <string name="company_settings">Company Settings</string>
+    <string name="start_job">Start Job</string>
+    <string name="timer">Timer</string>
+    <string name="job_finished">Job finished</string>
+    <string name="edit_vehicle">Edit vehicle</string>
+    <string name="add_vehicle">Add vehicle</string>
+
+    <!-- Vehicle List -->
+    <string name="no_vehicles_yet">No vehicles yet. Add your first one below.</string>
+    <string name="per_hour">%1$s / hour</string>
+    <string name="btn_add_vehicle">Add vehicle</string>
+    <string name="menu_history">History</string>
+    <string name="menu_totals">Totals</string>
+    <string name="menu_export">Export data</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Vehicle Card -->
+    <string name="status_start">Start</string>
+    <string name="status_paused">Paused</string>
+    <string name="status_running">Running</string>
+    <string name="status_available">Available</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+
+    <!-- Dialogs -->
+    <string name="delete_confirm_title">Delete %1$s?</string>
+    <string name="delete_confirm_msg">This cannot be undone.</string>
+    <string name="btn_delete">Delete</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_ok">OK</string>
+    <string name="error_cannot_delete">Cannot Delete</string>
+    <string name="error_stop_job_first">Stop the current job before deleting this vehicle.</string>
+
+    <!-- Add/Edit Vehicle -->
+    <string name="label_vehicle_name">Vehicle name</string>
+    <string name="label_rate_per_hour">Rate per hour (₹)</string>
+    <string name="label_vehicle_icon">Vehicle icon</string>
+    <string name="choose_an_icon">Choose an icon</string>
+    <string name="selected_icon_label">selected</string>
+    <string name="rounding_rule">Rounding rule</string>
+    <string name="rule_per_minute">Per minute (exact)</string>
+    <string name="rule_half_hour">Round up to half hour</string>
+    <string name="rule_full_hour">Round up to full hour</string>
+    <string name="btn_update_vehicle">Update vehicle</string>
+    <string name="btn_save_vehicle">Save vehicle</string>
+
+    <!-- Timer Screen -->
+    <string name="label_customer_name">Customer name</string>
+    <string name="label_customer_address">Customer address / location</string>
+    <string name="btn_start_job">Start job</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_stop_job">Stop job</string>
+    <string name="amount_so_far">Amount so far</string>
+    <string name="customer_label">Customer: %1$s</string>
+
+    <!-- Summary Screen -->
+    <string name="time_used">Time used: %1$s</string>
+    <string name="rate_label">Rate: %1$s/hr</string>
+    <string name="total_label">Total: %1$s</string>
+    <string name="payment_status">Payment Status</string>
+    <string name="status_paid">Paid</string>
+    <string name="status_pending">Pending</string>
+    <string name="btn_share_bill">Share bill</string>
+    <string name="btn_download">Download</string>
+    <string name="download_success">Saved to Pictures/Time Drive</string>
+    <string name="btn_done">Done</string>
+
+    <!-- History & Search -->
+    <string name="search_customer">Search by customer</string>
+    <string name="all_vehicles">All vehicles</string>
+    <string name="today">Today</string>
+    <string name="this_week">This week</string>
+    <string name="this_month">This month</string>
+    <string name="this_year">This year</string>
+    <string name="no_jobs_found">No jobs found for these filters.</string>
+    <string name="show_pending_only">Show Pending Only</string>
+    <string name="receipt_title">Job Receipt</string>
+
+    <!-- Totals Screen -->
+    <string name="total_for_period">Total for %1$s</string>
+    <string name="jobs_count">%1$d jobs</string>
+    <string name="pending_collection">Pending collection</string>
+    <string name="pending_jobs_count">%1$d pending jobs</string>
+
+    <!-- Settings -->
+    <string name="label_business_name">Business Name</string>
+    <string name="label_phone_number">Phone Number</string>
+    <string name="label_address">Address</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_back">Back</string>
+    <string name="language">Language</string>
+    <string name="backup_restore">Backup &amp; Restore</string>
+    <string name="last_backup">Last backup: %1$s</string>
+    <string name="never_backed_up">Never backed up</string>
+
+    <!-- Backup & Restore Screen -->
+    <string name="backup_title">Backup &amp; Restore</string>
+    <string name="create_backup">Create Backup</string>
+    <string name="btn_share_backup">Share Backup</string>
+    <string name="btn_save_to_device">Save to Device</string>
+    <string name="create_backup_desc">Generate a JSON file with all your data to share or save.</string>
+    <string name="restore_backup">Restore from Backup</string>
+    <string name="restore_backup_desc">Select a previously saved JSON file to restore your data.</string>
+    <string name="restore_confirm_title">Restore Data?</string>
+    <string name="restore_confirm_msg">This will replace all current vehicles, jobs, and settings with data from the backup file (%1$s).\n\nVehicles: %2$d\nJobs: %3$d\nBackup Date: %4$s\n\nThis cannot be undone.</string>
+    <string name="btn_restore">Restore</string>
+    <string name="backup_success">Backup created and shared</string>
+    <string name="restore_success">Data restored successfully</string>
+    <string name="error_invalid_backup">Invalid backup file</string>
+    <string name="error_restore_failed">Restore failed: %1$s</string>
+
+    <!-- Onboarding -->
+    <string name="btn_skip">Skip</string>
+    <string name="btn_next">Next</string>
+    <string name="btn_get_started">Get Started</string>
+    <string name="onboarding_1_title">Add your vehicles</string>
+    <string name="onboarding_1_sub">Set a name and hourly rate for each tractor, JCB, or vehicle you rent out</string>
+    <string name="onboarding_2_title">Start and stop the timer</string>
+    <string name="onboarding_2_sub">Tap Start when a job begins. The bill is calculated for you automatically</string>
+    <string name="onboarding_3_title">Share the bill instantly</string>
+    <string name="onboarding_3_sub">Send a professional bill on WhatsApp and see all your past jobs anytime</string>
+
+    <!-- Initial Setup -->
+    <string name="initial_setup_title">Set up your business</string>
+    <string name="initial_setup_sub">This appears on every bill you share with customers</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_skip_for_now">Skip for now</string>
+    <string name="initial_setup_reassurance">You can always edit this later in Settings</string>
+
+    <!-- Receipt Specific -->
+    <string name="receipt_vehicle">Vehicle:</string>
+    <string name="receipt_customer">Customer:</string>
+    <string name="receipt_date">Date:</string>
+    <string name="receipt_duration">Duration:</string>
+    <string name="receipt_rate">Rate:</string>
+    <string name="receipt_total">TOTAL</string>
+</resources>

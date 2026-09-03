@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Time Drive</string>
+    <string name="rive">rive</string>
+
+    <!-- Navigation & Titles -->
+    <string name="job_history">పని చరిత్ర</string>
+    <string name="earning_totals">మొత్తం సంపాదన</string>
+    <string name="company_settings">కంపెనీ సెట్టింగ్స్</string>
+    <string name="start_job">పని ప్రారంభించండి</string>
+    <string name="timer">టైమర్</string>
+    <string name="job_finished">పని పూర్తయింది</string>
+    <string name="edit_vehicle">వాహనాన్ని మార్చండి</string>
+    <string name="add_vehicle">వాహనాన్ని జోడించండి</string>
+
+    <!-- Vehicle List -->
+    <string name="no_vehicles_yet">ఇంకా వాహనాలు లేవు. కింద జోడించండి.</string>
+    <string name="per_hour">గంటకు %1$s</string>
+    <string name="btn_add_vehicle">వాహనాన్ని జోడించండి</string>
+    <string name="menu_history">చరిత్ర</string>
+    <string name="menu_totals">సంపాదన</string>
+    <string name="menu_export">డేటా ఎగుమతి</string>
+    <string name="menu_settings">సెట్టింగ్స్</string>
+
+    <!-- Vehicle Card -->
+    <string name="status_start">ప్రారంభం</string>
+    <string name="status_paused">ఆపబడింది</string>
+    <string name="status_running">నడుస్తోంది</string>
+    <string name="menu_edit">సవరించు</string>
+    <string name="menu_delete">తొలగించు</string>
+
+    <!-- Dialogs -->
+    <string name="delete_confirm_title">%1$sని తొలగించాలా?</string>
+    <string name="delete_confirm_msg">దీన్ని తిరిగి మార్చలేము.</string>
+    <string name="btn_delete">తొలగించు</string>
+    <string name="btn_cancel">రద్దు చేయి</string>
+    <string name="btn_ok">సరే</string>
+    <string name="error_cannot_delete">తొలగించలేము</string>
+    <string name="error_stop_job_first">ఈ వాహనాన్ని తొలగించే ముందు ప్రస్తుత పనిని ఆపండి.</string>
+
+    <!-- Add/Edit Vehicle -->
+    <string name="label_vehicle_name">వాహనం పేరు</string>
+    <string name="label_rate_per_hour">గంటకు అద్దె (₹)</string>
+    <string name="rounding_rule">సమయం లెక్కించే పద్ధతి</string>
+    <string name="rule_per_minute">ప్రతి నిమిషం (ఖచ్చితంగా)</string>
+    <string name="rule_half_hour">తదుపరి అరగంట వరకు</string>
+    <string name="rule_full_hour">తదుపరి పూర్తి గంట వరకు</string>
+    <string name="btn_update_vehicle">వాహనాన్ని అప్‌డేట్ చేయి</string>
+    <string name="btn_save_vehicle">వాహనాన్ని సేవ్ చేయి</string>
+
+    <!-- Timer Screen -->
+    <string name="label_customer_name">కస్టమర్ పేరు</string>
+    <string name="label_customer_address">కస్టమర్ చిరునామా / ప్రాంతం</string>
+    <string name="btn_start_job">పని ప్రారంభించు</string>
+    <string name="btn_pause">ఆపు</string>
+    <string name="btn_resume">తిరిగి ప్రారంభించు</string>
+    <string name="btn_stop_job">పని ముగించు</string>
+    <string name="amount_so_far">ఇప్పటివరకు అద్దె</string>
+    <string name="customer_label">కస్టమర్: %1$s</string>
+
+    <!-- Summary Screen -->
+    <string name="time_used">వాడిన సమయం: %1$s</string>
+    <string name="rate_label">అద్దె: %1$s/గంట</string>
+    <string name="total_label">మొత్తం: %1$s</string>
+    <string name="payment_status">పేమెంట్ స్థితి</string>
+    <string name="status_paid">చెల్లించారు (Paid)</string>
+    <string name="status_pending">బాకీ (Pending)</string>
+    <string name="btn_share_bill">బిల్లు పంచుకోండి</string>
+    <string name="btn_done">పూర్తయింది</string>
+
+    <!-- History & Search -->
+    <string name="search_customer">కస్టమర్ పేరుతో వెతకండి</string>
+    <string name="all_vehicles">అన్ని వాహనాలు</string>
+    <string name="today">నేడు</string>
+    <string name="this_week">ఈ వారం</string>
+    <string name="this_month">ఈ నెల</string>
+    <string name="this_year">ఈ ఏడాది</string>
+    <string name="no_jobs_found">సమాచారం ఏమీ లేదు.</string>
+    <string name="show_pending_only">బాకీ ఉన్నవి మాత్రమే చూపు</string>
+    <string name="receipt_title">పని రసీదు</string>
+
+    <!-- Totals Screen -->
+    <string name="total_for_period">%1$s మొత్తం సంపాదన</string>
+    <string name="jobs_count">%1$d పనులు</string>
+    <string name="pending_collection">వసూలు చేయవలసినవి</string>
+    <string name="pending_jobs_count">%1$d పనులు బాకీ</string>
+
+    <!-- Settings -->
+    <string name="label_business_name">వ్యాపారం పేరు</string>
+    <string name="label_phone_number">ఫోన్ నంబర్</string>
+    <string name="label_address">చిరునామా</string>
+    <string name="btn_save">సేవ్ చేయి</string>
+    <string name="btn_back">వెనుకకు</string>
+    <string name="language">భాష (Language)</string>
+    <string name="backup_restore">బ్యాకప్ &amp; రీస్టోర్</string>
+    <string name="last_backup">చివరి బ్యాకప్: %1$s</string>
+    <string name="never_backed_up">ఎప్పుడూ బ్యాకప్ చేయలేదు</string>
+
+    <!-- Backup & Restore Screen -->
+    <string name="backup_title">బ్యాకప్ &amp; రీస్టోర్</string>
+    <string name="create_backup">బ్యాకప్ సృష్టించండి</string>
+    <string name="create_backup_desc">మీ మొత్తం డేటాను షేర్ చేయడానికి లేదా సేవ్ చేయడానికి JSON ఫైల్‌ను సృష్టించండి.</string>
+    <string name="restore_backup">బ్యాకప్ నుండి రీస్టోర్ చేయండి</string>
+    <string name="restore_backup_desc">మీ డేటాను పునరుద్ధరించడానికి గతంలో సేవ్ చేసిన JSON ఫైల్‌ను ఎంచుకోండి.</string>
+    <string name="restore_confirm_title">డేటాను రీస్టోర్ చేయాలా?</string>
+    <string name="restore_confirm_msg">ఇది బ్యాకప్ ఫైల్ (%1$s) నుండి ప్రస్తుత వాహనాలు, పనులు మరియు సెట్టింగ్‌లన్నింటినీ భర్తీ చేస్తుంది.\n\nవాహనాలు: %2$d\nపనులు: %3$d\nబ్యాకప్ తేదీ: %4$s\n\nదీనిని వెనక్కి తీసుకోలేరు.</string>
+    <string name="btn_restore">రీస్టోర్</string>
+    <string name="backup_success">బ్యాకప్ సృష్టించబడింది మరియు షేర్ చేయబడింది</string>
+    <string name="restore_success">డేటా విజయవంతంగా రీస్టోర్ చేయబడింది</string>
+    <string name="error_invalid_backup">చెల్లని బ్యాకప్ ఫైల్</string>
+    <string name="error_restore_failed">రీస్టోర్ విఫలమైంది: %1$s</string>
+    <string name="btn_share_backup">బ్యాకప్‌ను షేర్ చేయండి</string>
+    <string name="btn_save_to_device">పరికరంలో సేవ్ చేయండి</string>
+
+    <!-- Onboarding -->
+    <string name="btn_skip">దాటవేయి</string>
+    <string name="btn_next">తర్వాత</string>
+    <string name="btn_get_started">ప్రారంభించండి</string>
+    <string name="onboarding_1_title">మీ వాహనాలను జోడించండి</string>
+    <string name="onboarding_1_sub">మీ ట్రాక్టర్, జేసీబీ లేదా అద్దె వాహనాల పేరు మరియు గంట అద్దెను సెట్ చేయండి</string>
+    <string name="onboarding_2_title">సమయాన్ని రికార్డ్ చేయండి</string>
+    <string name="onboarding_2_sub">పని ప్రారంభమైనప్పుడు బటన్ నొక్కండి. అద్దె ఆటోమేటిక్‌గా లెక్కించబడుతుంది</string>
+    <string name="onboarding_3_title">బిల్లు వెంటనే పంపండి</string>
+    <string name="onboarding_3_sub">వాట్సాప్‌లో ప్రొఫెషనల్ బిల్లు పంపండి మరియు పాత లెక్కలను ఎప్పుడైనా చూడండి</string>
+
+    <!-- Initial Setup -->
+    <string name="initial_setup_title">మీ వ్యాపారాన్ని సెటప్ చేయండి</string>
+    <string name="initial_setup_sub">ఇది మీరు కస్టమర్లతో పంచుకునే ప్రతి బిల్లుపై కనిపిస్తుంది</string>
+    <string name="btn_continue">కొనసాగించు</string>
+    <string name="btn_skip_for_now">ప్రస్తుతానికి దాటవేయి</string>
+    <string name="initial_setup_reassurance">మీరు దీన్ని తర్వాత ఎప్పుడైనా సెట్టింగ్స్‌లో మార్చుకోవచ్చు</string>
+
+    <!-- Receipt Specific -->
+    <string name="receipt_vehicle">వాహనం:</string>
+    <string name="receipt_customer">కస్టమర్:</string>
+    <string name="receipt_date">తేదీ:</string>
+    <string name="receipt_duration">సమయం:</string>
+    <string name="receipt_rate">అద్దె:</string>
+    <string name="receipt_total">మొత్తం అద్దె</string>
+
+    <string name="btn_download">డౌన్‌లోడ్</string>
+    <string name="download_success">పిక్చర్స్/Time Driveలో సేవ్ చేయబడింది</string>
+    <string name="status_available">Available</string>
+    <string name="label_vehicle_icon">Vehicle icon</string>
+    <string name="choose_an_icon">Choose an icon</string>
+    <string name="selected_icon_label">selected</string>
+</resources>

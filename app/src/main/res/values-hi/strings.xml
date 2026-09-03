@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Time Drive</string>
+    <string name="rive">rive</string>
+
+    <!-- Navigation & Titles -->
+    <string name="job_history">काम का इतिहास</string>
+    <string name="earning_totals">कुल कमाई</string>
+    <string name="company_settings">कंपनी सेटिंग्स</string>
+    <string name="start_job">काम शुरू करें</string>
+    <string name="timer">टाइम रिकॉर्डर</string>
+    <string name="job_finished">काम पूरा हुआ</string>
+    <string name="edit_vehicle">वाहन बदलें</string>
+    <string name="add_vehicle">नया वाहन जोड़ें</string>
+
+    <!-- Vehicle List -->
+    <string name="no_vehicles_yet">अभी कोई वाहन नहीं है। नीचे से जोड़ें।</string>
+    <string name="per_hour">%1$s प्रति घंटा</string>
+    <string name="btn_add_vehicle">नया वाहन जोड़ें</string>
+    <string name="menu_history">इतिहास</string>
+    <string name="menu_totals">कुल कमाई</string>
+    <string name="menu_export">डेटा एक्सपोर्ट करें</string>
+    <string name="menu_settings">सेटिंग्स</string>
+
+    <!-- Vehicle Card -->
+    <string name="status_start">शुरू करें</string>
+    <string name="status_paused">रुका हुआ</string>
+    <string name="status_running">चल रहा है</string>
+    <string name="status_available">Available</string>
+    <string name="menu_edit">बदलें</string>
+    <string name="menu_delete">हटाएं</string>
+
+    <!-- Dialogs -->
+    <string name="delete_confirm_title">%1$s को हटाएं?</string>
+    <string name="delete_confirm_msg">इसे वापस नहीं लाया जा सकेगा।</string>
+    <string name="btn_delete">हटाएं</string>
+    <string name="btn_cancel">रद्द करें</string>
+    <string name="btn_ok">ठीक है</string>
+    <string name="error_cannot_delete">हटा नहीं सकते</string>
+    <string name="error_stop_job_first">वाहन हटाने से पहले चल रहे काम को रोकें।</string>
+
+    <!-- Add/Edit Vehicle -->
+    <string name="label_vehicle_name">वाहन का नाम</string>
+    <string name="label_rate_per_hour">किराया प्रति घंटा (₹)</string>
+    <string name="label_vehicle_icon">Vehicle icon</string>
+    <string name="choose_an_icon">Choose an icon</string>
+    <string name="selected_icon_label">selected</string>
+    <string name="rounding_rule">समय गिनने का तरीका</string>
+    <string name="rule_per_minute">हर मिनट (सटीक)</string>
+    <string name="rule_half_hour">अगले आधे घंटे तक</string>
+    <string name="rule_full_hour">अगले पूरे घंटे तक</string>
+    <string name="btn_update_vehicle">वाहन अपडेट करें</string>
+    <string name="btn_save_vehicle">वाहन सेव करें</string>
+
+    <!-- Timer Screen -->
+    <string name="label_customer_name">ग्राहक का नाम</string>
+    <string name="label_customer_address">ग्राहक का पता / जगह</string>
+    <string name="btn_start_job">काम शुरू करें</string>
+    <string name="btn_pause">रोकें</string>
+    <string name="btn_resume">फिर शुरू करें</string>
+    <string name="btn_stop_job">काम बंद करें</string>
+    <string name="amount_so_far">अब तक का किराया</string>
+    <string name="customer_label">ग्राहक: %1$s</string>
+
+    <!-- Summary Screen -->
+    <string name="time_used">कुल समय: %1$s</string>
+    <string name="rate_label">रेट: %1$s/घंटा</string>
+    <string name="total_label">कुल किराया: %1$s</string>
+    <string name="payment_status">पेमेंट की स्थिति</string>
+    <string name="status_paid">मिल गया (Paid)</string>
+    <string name="status_pending">बाकी है (Pending)</string>
+    <string name="btn_share_bill">बिल भेजें</string>
+    <string name="btn_done">हो गया</string>
+
+    <!-- History & Search -->
+    <string name="search_customer">ग्राहक के नाम से खोजें</string>
+    <string name="all_vehicles">सभी वाहन</string>
+    <string name="today">आज</string>
+    <string name="this_week">इस हफ्ते</string>
+    <string name="this_month">इस महीने</string>
+    <string name="this_year">इस साल</string>
+    <string name="no_jobs_found">कोई जानकारी नहीं मिली।</string>
+    <string name="show_pending_only">सिर्फ बाकी पेमेंट दिखाएं</string>
+    <string name="receipt_title">काम की रसीद</string>
+
+    <!-- Totals Screen -->
+    <string name="total_for_period">%1$s की कुल कमाई</string>
+    <string name="jobs_count">%1$d काम</string>
+    <string name="pending_collection">लेना बाकी है</string>
+    <string name="pending_jobs_count">%1$d काम बाकी हैं</string>
+
+    <!-- Settings -->
+    <string name="label_business_name">व्यापार का नाम</string>
+    <string name="label_phone_number">फ़ोन नंबर</string>
+    <string name="label_address">पता</string>
+    <string name="btn_save">सेव करें</string>
+    <string name="btn_back">पीछे जाएं</string>
+    <string name="language">भाषा (Language)</string>
+    <string name="backup_restore">बैकअप और रिस्टोर</string>
+    <string name="last_backup">पिछला बैकअप: %1$s</string>
+    <string name="never_backed_up">कभी बैकअप नहीं लिया गया</string>
+
+    <!-- Backup & Restore Screen -->
+    <string name="backup_title">बैकअप और रिस्टोर</string>
+    <string name="create_backup">बैकअप बनाएँ</string>
+    <string name="create_backup_desc">अपना सारा डेटा साझा करने या सहेजने के लिए एक JSON फ़ाइल बनाएँ।</string>
+    <string name="restore_backup">बैकअप से रिस्टोर करें</string>
+    <string name="restore_backup_desc">अपना डेटा रिस्टोर करने के लिए पहले से सहेजी गई JSON फ़ाइल चुनें।</string>
+    <string name="restore_confirm_title">डेटा रिस्टोर करें?</string>
+    <string name="restore_confirm_msg">यह बैकअप फ़ाइल (%1$s) के डेटा के साथ सभी वर्तमान वाहनों, नौकरियों और सेटिंग्स को बदल देगा।\n\nवाहन: %2$d\nनौकरियां: %3$d\nबैकअप तिथि: %4$s\n\nइसे वापस नहीं लिया जा सकता।</string>
+    <string name="btn_restore">रिस्टोर करें</string>
+    <string name="backup_success">बैकअप बनाया गया और साझा किया गया</string>
+    <string name="restore_success">डेटा सफलतापूर्वक रिस्टोर किया गया</string>
+    <string name="error_invalid_backup">अमान्य बैकअप फ़ाइल</string>
+    <string name="error_restore_failed">रिस्टोर विफल रहा: %1$s</string>
+    <string name="btn_share_backup">बैकअप साझा करें</string>
+    <string name="btn_save_to_device">डिवाइस पर सेव करें</string>
+
+    <!-- Onboarding -->
+    <string name="btn_skip">छोड़ें</string>
+    <string name="btn_next">आगे बढ़ें</string>
+    <string name="btn_get_started">शुरू करें</string>
+    <string name="onboarding_1_title">अपने वाहन जोड़ें</string>
+    <string name="onboarding_1_sub">अपने ट्रैक्टर, जेसीबी या किराए पर चलने वाले वाहनों का नाम और रेट सेट करें</string>
+    <string name="onboarding_2_title">टाइम रिकॉर्ड करना शुरू करें</string>
+    <string name="onboarding_2_sub">काम शुरू होते ही बटन दबाएं। किराया अपने आप जुड़ता रहेगा</string>
+    <string name="onboarding_3_title">बिल तुरंत शेयर करें</string>
+    <string name="onboarding_3_sub">व्हाट्सएप पर प्रोफेशनल बिल भेजें और पुराना हिसाब कभी भी देखें</string>
+
+    <!-- Initial Setup -->
+    <string name="initial_setup_title">अपने व्यापार की जानकारी जोड़ें</string>
+    <string name="initial_setup_sub">यह जानकारी आपके द्वारा ग्राहकों को भेजे गए हर बिल पर दिखेगी</string>
+    <string name="btn_continue">आगे बढ़ें</string>
+    <string name="btn_skip_for_now">अभी छोड़ें</string>
+    <string name="initial_setup_reassurance">आप इसे बाद में भी सेटिंग्स में बदल सकते हैं</string>
+
+    <!-- Receipt Specific -->
+    <string name="receipt_vehicle">वाहन:</string>
+    <string name="receipt_customer">ग्राहक:</string>
+    <string name="receipt_date">तारीख:</string>
+    <string name="receipt_duration">कुल समय:</string>
+    <string name="receipt_rate">रेट:</string>
+    <string name="receipt_total">कुल किराया</string>
+
+    <string name="btn_download">डाउनलोड करें</string>
+    <string name="download_success">पिक्चर्स/Time Drive में सेव किया गया</string>
+</resources>
